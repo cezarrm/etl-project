@@ -1,4 +1,4 @@
-# 🛠 ETL Project with Python - DummyJSON API
+# ETL Project with Python
 
 This project performs a complete **ETL (Extract, Transform, Load)** pipeline using Python and data extracted from the [https://dummyjson.com](https://dummyjson.com) API. The data is collected, stored as raw JSON files, transformed into structured CSVs, and finally merged into unified datasets by entity.
 
@@ -63,7 +63,7 @@ endpoints = ["user", "products"]
 for endpoint in endpoints:
     etl_pipeline(endpoint)
 
-How to Run
+### How to Run
 Install the required packages:
 
 pip install pandas requests
@@ -73,21 +73,15 @@ Run the script:
 python etl_dummyjson.py
 Final CSV files will be available in the /load directory.
 
-Notes
-The script is limited to 10 records per entity (limit = 10) feel free to increase it.
+### Notes
+- The script is limited to 10 records per entity (limit = 10) feel free to increase it.
+- Folders like raw/, curated/, and load/ are created automatically.
+- This project was made using the content that I found in DataEngineerHelp Channel on Youtube
 
-Folders like raw/, curated/, and load/ are created automatically.
-
-This project was made using the content that I found in DataEngineerHelp Channel on Youtube
-
-Learnings
-Performing HTTP requests with requests
-
-Reading and writing JSON and CSV files
-
-Building structured ETL pipelines
-
-Data transformation with pandas
-
-Organizing clean and modular Python code
+### Learnings
+- Performing HTTP requests with requests
+- Reading and writing JSON and CSV files
+- Building structured ETL pipelines
+- Data transformation with pandas
+- Organizing clean and modular Python code
 
