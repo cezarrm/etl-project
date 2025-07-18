@@ -16,19 +16,19 @@ This project performs a complete **ETL (Extract, Transform, Load)** pipeline usi
 ## Project Structure
 
 project/
-│
-├── raw/ # Stores raw JSON files
-│ ├── user/
-│ └── products/
-│
-├── curated/ # Stores transformed CSV files
-│ ├── user/
-│ └── products/
-│
-├── load/ # Final consolidated CSV files
-│
-├── etl_dummyjson.py # Main ETL pipeline script
-└── README.md # This file
+│  
+├── raw/ # Stores raw JSON files  
+│ ├── user/  
+│ └── products/  
+│  
+├── curated/ # Stores transformed CSV files  
+│ ├── user/  
+│ └── products/  
+│  
+├── load/ # Final consolidated CSV files  
+│  
+├── etl_dummyjson.py # Main ETL pipeline script  
+└── README.md # This file  
 
 ---
 
