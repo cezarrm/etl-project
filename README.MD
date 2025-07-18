@@ -61,16 +61,16 @@ Finally, the script runs the pipeline for each entity:
 ```python
 endpoints = ["user", "products"]
 for endpoint in endpoints:
-    etl_pipeline(endpoint)
+    etl_pipeline(endpoint)```
 
 ### How to Run
 Install the required packages:
 
-pip install pandas requests
+```pip install pandas requests
 Run the script:
 
 
-python etl_dummyjson.py
+python etl_dummyjson.py```
 Final CSV files will be available in the /load directory.
 
 ### Notes
