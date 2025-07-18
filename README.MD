@@ -30,10 +30,6 @@ project/
 ├── etl_dummyjson.py # Main ETL pipeline script
 └── README.md # This file
 
-yaml
-Copy
-Edit
-
 ---
 
 ## Pipeline Features
@@ -70,15 +66,10 @@ for endpoint in endpoints:
 How to Run
 Install the required packages:
 
-bash
-Copy
-Edit
 pip install pandas requests
 Run the script:
 
-bash
-Copy
-Edit
+
 python etl_dummyjson.py
 Final CSV files will be available in the /load directory.
 
